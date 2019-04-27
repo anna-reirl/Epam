@@ -1,0 +1,38 @@
+.red {
+
+background: #FF0000;
+
+}
+
+.green {
+
+background: #03FF03;
+
+}
+
+.blue {
+
+background: #0000FF;
+
+}
+
+div {
+    display: block;
+}
+.wrapper {
+    width: 211px;
+    height: 213px;
+    background-color: white;
+    border: 5px solid white;
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+    flex-wrap: wrap;
+}
+wrapper .red, .wrapper .green, .wrapper .blue {
+    width: 50%;
+    cursor: pointer;
+}
+.wrapper .red, .wrapper, .green, .blue {
+    flex: 1 0 50%;
+}
